@@ -139,7 +139,8 @@ const Contact = () => {
                     <p>+48 123-123-123</p>
                     <p>kontakt@kajakpol.pl</p>
                     <p>NIP 123456789</p>
-                </div>
+                </div>y
+                
 
             </div>
 
