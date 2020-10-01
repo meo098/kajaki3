@@ -1,0 +1,74 @@
+@import  '../../styles/GlobalStyles.module.scss';
+.hamburgerButton {
+    // z-index: 100;
+    padding: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+.hamburger {
+    width: 40px;
+    height: 4px;
+    background-color: $primaryColor;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+.hamburger::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 40px;
+    height: 4px;
+    background-color: $primaryColor;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+}
+.hamburger::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 40px;
+    height: 4px;
+    background-color: $primaryColor;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+
+
+// --------------Hamburger Active-----------------
+.hamburgerActive {
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburgerActive::before {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(10px) rotate(45deg);
+}
+
+.hamburgerActive::after {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+// --------Hamburger Media------------
+
+@media screen and (max-width: $navpx) {
+    .hamburgerButton {
+        display: block;
+    }   
+}
+
+
+
+
+
+

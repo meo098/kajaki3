@@ -1,0 +1,20 @@
+$nav: 700;
+$navpx: 700px;
+
+$navbarBg: transparent;
+$navbarBg2: #3a803d; 
+$navbarBgScrolled: rgba(0,0,0,0.8);
+
+$primaryColor: #ddd;
+$primaryColorHover: #d6ce88;
+
+$secondaryColor: #222;
+
+
+
+:export {
+    nav: $nav;
+    navbarBg: $navbarBg;
+    navbarBg2: $navbarBg2;
+    
+}

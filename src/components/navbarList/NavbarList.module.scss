@@ -1,0 +1,68 @@
+@import  '../../styles/GlobalStyles.module.scss';
+
+.navbarList {
+    list-style: none;
+    display: flex;
+}
+
+.navbarLink {
+    color: $primaryColor;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.navbarLink:hover {
+    color: $primaryColorHover;
+}
+
+
+
+@media screen and (max-width: $navpx) {
+    
+    .navbarList {
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: calc(100vh - 0px);
+        transition: transform 0.3s ease-in-out;
+        background-color: #2196f3;
+        overflow: hidden;
+    }
+    .navbarList::after {
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        background-image: url(../../images/kajak4.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.9;
+        z-index: -100;
+    }
+    .navbarList::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        box-shadow: 0px 0px 100px 100px rgba(0,0,0,0.6);
+        
+    }
+    .navbarListActive {
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+    }
+    .navbarLink:hover {
+        color: $primaryColorHover;
+        background-color:  rgba(0,0,0,0.3);
+        
+    }
+}

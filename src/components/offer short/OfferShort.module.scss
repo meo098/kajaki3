@@ -1,0 +1,37 @@
+.offerShort
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    padding: 20px;
+    background-color: #222 ;
+    background-size: cover;
+    background-position: center;
+    color: #ddd;
+    height: 700px;
+    position: relative;
+}
+
+.title {
+    font-size: 46px;
+}
+
+.desc {
+    font-size: 26px;
+}
+
+
+     
+
+
+
+
+.foto {
+    height: 400px;
+    width: 400px;
+    background-image: url('../../images/kajak6.jpg');
+    background-size: cover;
+}
