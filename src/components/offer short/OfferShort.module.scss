@@ -1,3 +1,5 @@
+@import  '../../styles/GlobalStyles.module.scss';
+
 .offerShort
 {
     display: flex;
@@ -6,32 +8,64 @@
 
 .container {
     width: 1200px;
-    padding: 20px;
-    background-color: #222 ;
+    background: linear-gradient(135deg, rgba(33,150,243,1) 0%, rgba(0,188,212,1) 100%);
     background-size: cover;
     background-position: center;
     color: #ddd;
-    height: 700px;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
 }
 
 .title {
-    font-size: 46px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 46px; 
+  }
+
+.bubbleBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
+
+.infoBox {
+    flex: 1;
+}
+.motto {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+
+.desc {
+    padding-bottom: 20px;
+}
+
+.buttonBox {
+  
+}
+
 
 .desc {
     font-size: 26px;
 }
 
 
-     
 
+.bubble1 {
 
+}
 
+.bubble2 {
+    margin-top: -60px;
+    align-self: center;
+}
 
-.foto {
-    height: 400px;
-    width: 400px;
-    background-image: url('../../images/kajak6.jpg');
-    background-size: cover;
+.bubble3 {
+    margin-top: -60px;
+    align-self: flex-end;
 }

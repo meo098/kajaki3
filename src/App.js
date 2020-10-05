@@ -10,6 +10,7 @@ import OfferShort from './components/offer short/OfferShort'
 import About from './pages/about/About'
 import Offer from './pages/offer/Offer'
 import Contact from './pages/contact/Contact'
+import Footer from './components/footer/Footer'
 
 
 const App = () => {
@@ -36,6 +37,8 @@ const App = () => {
                     <Contact/>
                 </Route>
             </Switch>
+
+            <Footer/>
 
         </Router>
     )

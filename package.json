@@ -1,7 +1,7 @@
 {
   "name": "kajaki3",
-  "homepage": "https://meo098.github.io/Kajakpol",
   "version": "0.1.0",
+  "homepage": "https://meo098.github.io/Kajakpol-deploy",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -22,6 +22,7 @@
     "eject": "react-scripts eject",
     "predeploy" :"npm run build",
     "deploy" : "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -10,7 +10,11 @@ export const aboutData = {
 
 export const offerData = {
     title: 'Nasza oferta',
-    desc: 'Wakacje z rodziną? Weekend z przyjaciołmi? A może działasz w pojedynke? Pomożemy komforotowo zaplanować wypoczynek. Sprawdź nasza ofertę.',
+    motto: 'Każdy jest wyjątkowy',
+    desc: 'Pomożemy komforotowo zaplanować wypoczynek. Sprawdź nasza ofertę.',
+    desc1: 'Wakacje z rodziną?',
+    desc2: 'Weekend z przyjaciółmi?',
+    desc3: 'A może działasz w pojedynke?',
     buttonDesc: 'Czytaj wiecej',
     buttonLink: '/offer'
 }

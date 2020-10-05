@@ -1,0 +1,88 @@
+@import  '../../styles/GlobalStyles.module.scss';
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        color: inherit;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+.container {
+    width: 1200px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;  
+}
+
+.navBoxList {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    li {
+        padding: 20px;
+    }
+}
+
+.socialList {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+        padding: 20px;
+    }
+}
+
+.navIcon {
+   margin-right: 10px;
+}
+
+.icon {
+    width: 24px;
+}
+
+
+.copy {
+    width: 100%;
+    padding: 20px;
+}
+
+@media  screen and (max-width: 810px) {
+    .navBoxList {
+        width: 100%; 
+    }
+    .socialList {
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width: 570px) {
+    .navBoxList {
+        flex-direction: column;
+    }
+    
+}
+
+@media  screen and (max-width: 460px) {
+    .navBoxList {
+        width: 100%; 
+        flex-direction: column;
+    }
+    .socialList {
+        width: 100%;  
+    }
+}

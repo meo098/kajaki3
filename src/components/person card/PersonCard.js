@@ -7,11 +7,11 @@ const PersonCard = ({ person }) => {
    
     return (
         <div className={styles.personCard} style={{flexDirection: myFlex}}  >
-            <div className={`${styles.box} ${styles.cardInfo}` }>
+            <div className={styles.cardInfo}>
                 <p className={styles.name}>{name}</p>
                 <p className={styles.desc}>{desc}</p>
             </div>
-            <div className={`${styles.box} ${styles.foto}`}>
+            <div className={styles.foto}>
                 <img className={styles.image} src={imagePath} />
             </div>
 
