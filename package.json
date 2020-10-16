@@ -2,7 +2,7 @@
   "name": "kajaki3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://meo098.github.io/Kajakpol/"
+  "homepage": "https://meo098.github.io/Kajakpol/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
