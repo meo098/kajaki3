@@ -4,6 +4,7 @@
 {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .container {
@@ -17,7 +18,12 @@
     align-items: center;
     padding: 20px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    
 }
+
+
 
 .title {
     padding-bottom: 20px;
@@ -34,6 +40,7 @@
 
 .infoBox {
     flex: 1;
+    padding: 10px;
 }
 .motto {
     font-size: 36px;
@@ -42,6 +49,7 @@
 
 
 .desc {
+    font-size: 20px;
     padding-bottom: 20px;
 }
 

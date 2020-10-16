@@ -1,0 +1,77 @@
+
+
+$primaryColor: #333;
+
+.offer {
+    
+}
+
+.baner {
+    background-image: url('../../images/kajak7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.baner::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: darkseagreen;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.banerText {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 46px;
+    text-shadow: 0px 0px 20px #000000;
+    
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $primaryColor;
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    font-size: 46px;
+}
+
+.desc {
+    font-size: 36px;
+}
+
+.subtitle {
+    text-align: left;
+    padding: 30px 0 10px 0;
+}
+
+.oneDaysOffers,
+.fewDaysOffers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.extraInfo {
+    text-align: left;
+}
+
+

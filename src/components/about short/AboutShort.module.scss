@@ -1,9 +1,11 @@
 @import  '../../styles/GlobalStyles.module.scss';
 
+
+
 .aboutShort {
     display: flex;
     justify-content: center;
-    margin: 20px 0 20px 0;
+    margin-top: 20px;
 }
 
 .container {
@@ -11,56 +13,67 @@
     width: 1200px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     background-color: $primaryColor;
-    position: relative;
+    text-align: center;
+
 
 }
 
+.title {
+    font-size: 46px;
+    width: 100%;
+    padding-bottom: 30px;
+ 
+}
 
-.fotoWrapper1,
-.fotoWrapper2
- {
-    width: 280px;
-    height: 280px;
-    max-width: 100%;
+.infoBox {
+    width: 50%;
+    padding: 10px;
+}
+
+.motto {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.desc {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.fotoBox {
+    border-radius: 20px;
+    width: 50%;
+    height: 300px;
+    background-image: url('../../images/about2.jpg');
     background-size: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 30px 10px rgba(0,0,0, 0.2);
+    background-position: center;
+    opacity: 0.8;
 }
-
-.fotoWrapper1 {
-    background-image: url('../../images//people/person1.jpg');
-    background-position: 0% 30%;
-}
-.fotoWrapper2 {
-    margin-top: -60px;
-    background-image: url('../../images//people/person2.jpg');
-    // float: right;
-}
-
-
-
-.tree {
-    fill: darkgreen;
-    height: 100%;
-    width: auto;
-    position: absolute;
-    margin-top: -20px;
-    margin-left: -20px;
-    transform: translateX(-50%);
-    opacity: 0.3;
-    z-index: 0;
-}
-
-
-
-
 
 
 
 @media screen and (max-width: $navpx) {
     .container {
         flex-direction: column;
+        position: relative;
+        z-index: 1;
+    
+    }
+ 
+    .infoBox {
+        width: 100%;
+    }
+    .fotoBox {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+        border-radius: 0px;
+  
     }
 }
 

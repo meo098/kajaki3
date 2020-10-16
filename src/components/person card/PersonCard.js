@@ -12,7 +12,7 @@ const PersonCard = ({ person }) => {
                 <p className={styles.desc}>{desc}</p>
             </div>
             <div className={styles.foto}>
-                <img className={styles.image} src={imagePath} />
+                <img className={styles.image} src={imagePath} alt="person" />
             </div>
 
 

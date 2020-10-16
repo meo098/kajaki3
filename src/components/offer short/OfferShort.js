@@ -1,5 +1,5 @@
 import React from 'react'
-import ShortBox from '../short box/ShortBox'
+
 import styles from './OfferShort.module.scss'
 import { offerData } from '../../pages/home/Data.js'
 import ButtonMore from '../button more/ButtonMore'
@@ -10,10 +10,10 @@ import Bubble from '../bubble/Bubble'
 
 const OfferShort = () => {
     const { title, motto, desc1, desc2, desc3, desc, buttonDesc, buttonLink } = offerData
-    console.log(offerData)
     return (
         <section className={styles.offerShort}>
             <div className={styles.container}>
+
                 <h2 className={styles.title}>{title}</h2>
                 <div className={styles.bubbleBox}>
                     <div className={styles.bubble1}>
@@ -29,7 +29,7 @@ const OfferShort = () => {
                 <div className={styles.infoBox}>
                     <h3 className={styles.motto}>{motto}</h3>
                     <p className={styles.desc}>{desc}</p>
-                    <ButtonMore buttonDesc={buttonDesc} buttonLink='/offer' />
+                    <ButtonMore buttonDesc={buttonDesc} buttonLink={buttonLink} />
                 </div>
             </div>
 

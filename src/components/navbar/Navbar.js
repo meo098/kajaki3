@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Hamburger from '../hamburger/Hamburger'
 import { ReactComponent as Logo } from '../../images/logo.svg';
-import { Link, NavLink, useLocation, useParams } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import styles from './Navbar.module.scss'
 import NavbarList from '../navbarList/NavbarList';
 import variables from '../../styles/GlobalStyles.module.scss'
@@ -10,13 +10,6 @@ import variables from '../../styles/GlobalStyles.module.scss'
 
 const Navbar = () => {
     
-    // const location = useLocation().pathname;
-    // let navBgcolor = ''
-
-    // if (location !== '/') {
-    //     navBgcolor = variables.navbarBg2
-
-    // }
 
 
     const [scroll, setScroll] = useState(false)
