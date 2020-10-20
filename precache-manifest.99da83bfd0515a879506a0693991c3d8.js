@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cdbd8220c599144b6c25266453a0d595",
+    "revision": "0cdb854492db3334382491f9589ee13d",
     "url": "/kajaki3/index.html"
   },
   {
-    "revision": "7fc685a395a181f5bfdd",
-    "url": "/kajaki3/static/css/main.cdc9d70f.chunk.css"
+    "revision": "5077f379b10e4d0be5e5",
+    "url": "/kajaki3/static/css/main.dffadfbe.chunk.css"
   },
   {
-    "revision": "dc58d31a981f31342567",
-    "url": "/kajaki3/static/js/2.c9465789.chunk.js"
+    "revision": "326c214d85178bda6d78",
+    "url": "/kajaki3/static/js/2.742c2ced.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/kajaki3/static/js/2.c9465789.chunk.js.LICENSE.txt"
+    "url": "/kajaki3/static/js/2.742c2ced.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7fc685a395a181f5bfdd",
-    "url": "/kajaki3/static/js/main.b0684cde.chunk.js"
+    "revision": "5077f379b10e4d0be5e5",
+    "url": "/kajaki3/static/js/main.b59a2ca5.chunk.js"
   },
   {
     "revision": "46a9dc0174ac1b017614",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "486f2396c4a7928ddee07ca627066fe3",
     "url": "/kajaki3/static/media/person2.486f2396.jpg"
+  },
+  {
+    "revision": "815afb8fa92e8bbaa13b8d7701bda02d",
+    "url": "/kajaki3/static/media/stop.815afb8f.svg"
   },
   {
     "revision": "c9f1200836515fd4bacd29160be78732",

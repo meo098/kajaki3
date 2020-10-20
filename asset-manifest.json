@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kajaki3/static/css/main.cdc9d70f.chunk.css",
-    "main.js": "/kajaki3/static/js/main.b0684cde.chunk.js",
-    "main.js.map": "/kajaki3/static/js/main.b0684cde.chunk.js.map",
+    "main.css": "/kajaki3/static/css/main.dffadfbe.chunk.css",
+    "main.js": "/kajaki3/static/js/main.b59a2ca5.chunk.js",
+    "main.js.map": "/kajaki3/static/js/main.b59a2ca5.chunk.js.map",
     "runtime-main.js": "/kajaki3/static/js/runtime-main.c0ea8ccc.js",
     "runtime-main.js.map": "/kajaki3/static/js/runtime-main.c0ea8ccc.js.map",
-    "static/js/2.c9465789.chunk.js": "/kajaki3/static/js/2.c9465789.chunk.js",
-    "static/js/2.c9465789.chunk.js.map": "/kajaki3/static/js/2.c9465789.chunk.js.map",
+    "static/js/2.742c2ced.chunk.js": "/kajaki3/static/js/2.742c2ced.chunk.js",
+    "static/js/2.742c2ced.chunk.js.map": "/kajaki3/static/js/2.742c2ced.chunk.js.map",
     "index.html": "/kajaki3/index.html",
-    "precache-manifest.618faa7d1b63756508acabcdb0f12ea2.js": "/kajaki3/precache-manifest.618faa7d1b63756508acabcdb0f12ea2.js",
+    "precache-manifest.99da83bfd0515a879506a0693991c3d8.js": "/kajaki3/precache-manifest.99da83bfd0515a879506a0693991c3d8.js",
     "service-worker.js": "/kajaki3/service-worker.js",
-    "static/css/main.cdc9d70f.chunk.css.map": "/kajaki3/static/css/main.cdc9d70f.chunk.css.map",
-    "static/js/2.c9465789.chunk.js.LICENSE.txt": "/kajaki3/static/js/2.c9465789.chunk.js.LICENSE.txt",
-    "static/media/about2.jpg": "/kajaki3/static/media/about2.147ea5f9.jpg",
+    "static/css/main.dffadfbe.chunk.css.map": "/kajaki3/static/css/main.dffadfbe.chunk.css.map",
+    "static/js/2.742c2ced.chunk.js.LICENSE.txt": "/kajaki3/static/js/2.742c2ced.chunk.js.LICENSE.txt",
+    "static/media/AboutShort.module.scss": "/kajaki3/static/media/about2.147ea5f9.jpg",
     "static/media/ContactShort.module.scss": "/kajaki3/static/media/contact.94b20dff.jpg",
     "static/media/facebook.95546009.svg": "/kajaki3/static/media/facebook.95546009.svg",
     "static/media/instagram.b1c58ee1.svg": "/kajaki3/static/media/instagram.b1c58ee1.svg",
@@ -27,13 +27,14 @@
     "static/media/offer3.jpg": "/kajaki3/static/media/offer3.2c8d2f77.jpg",
     "static/media/person1.jpg": "/kajaki3/static/media/person1.ffa912aa.jpg",
     "static/media/person2.jpg": "/kajaki3/static/media/person2.486f2396.jpg",
+    "static/media/stop.815afb8f.svg": "/kajaki3/static/media/stop.815afb8f.svg",
     "static/media/twitter.c9f12008.svg": "/kajaki3/static/media/twitter.c9f12008.svg",
     "static/media/youtube.20597e71.svg": "/kajaki3/static/media/youtube.20597e71.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c0ea8ccc.js",
-    "static/js/2.c9465789.chunk.js",
-    "static/css/main.cdc9d70f.chunk.css",
-    "static/js/main.b0684cde.chunk.js"
+    "static/js/2.742c2ced.chunk.js",
+    "static/css/main.dffadfbe.chunk.css",
+    "static/js/main.b59a2ca5.chunk.js"
   ]
 }
