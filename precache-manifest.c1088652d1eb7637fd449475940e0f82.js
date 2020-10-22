@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2050a56d6ccdd31a5e2f63eac5b980a",
+    "revision": "dc9f56c435645d14f02827097db71788",
     "url": "/kajaki3/index.html"
   },
   {
-    "revision": "aabdc9b265ddb2a259fa",
-    "url": "/kajaki3/static/css/main.adfc797e.chunk.css"
+    "revision": "5aa0003b5b3d26ffd3f2",
+    "url": "/kajaki3/static/css/main.6aff0e69.chunk.css"
   },
   {
     "revision": "326c214d85178bda6d78",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kajaki3/static/js/2.742c2ced.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aabdc9b265ddb2a259fa",
-    "url": "/kajaki3/static/js/main.c5684382.chunk.js"
+    "revision": "5aa0003b5b3d26ffd3f2",
+    "url": "/kajaki3/static/js/main.96c8b251.chunk.js"
   },
   {
     "revision": "46a9dc0174ac1b017614",
