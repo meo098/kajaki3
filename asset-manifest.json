@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kajaki3/static/css/main.2f7b4989.chunk.css",
-    "main.js": "/kajaki3/static/js/main.5d8c4aa4.chunk.js",
-    "main.js.map": "/kajaki3/static/js/main.5d8c4aa4.chunk.js.map",
+    "main.css": "/kajaki3/static/css/main.adfc797e.chunk.css",
+    "main.js": "/kajaki3/static/js/main.c5684382.chunk.js",
+    "main.js.map": "/kajaki3/static/js/main.c5684382.chunk.js.map",
     "runtime-main.js": "/kajaki3/static/js/runtime-main.c0ea8ccc.js",
     "runtime-main.js.map": "/kajaki3/static/js/runtime-main.c0ea8ccc.js.map",
     "static/js/2.742c2ced.chunk.js": "/kajaki3/static/js/2.742c2ced.chunk.js",
     "static/js/2.742c2ced.chunk.js.map": "/kajaki3/static/js/2.742c2ced.chunk.js.map",
     "index.html": "/kajaki3/index.html",
-    "precache-manifest.c5d79d9633002b44e12ba32a2e847e30.js": "/kajaki3/precache-manifest.c5d79d9633002b44e12ba32a2e847e30.js",
+    "precache-manifest.518f5d704b73002c193520ba7fff8b62.js": "/kajaki3/precache-manifest.518f5d704b73002c193520ba7fff8b62.js",
     "service-worker.js": "/kajaki3/service-worker.js",
-    "static/css/main.2f7b4989.chunk.css.map": "/kajaki3/static/css/main.2f7b4989.chunk.css.map",
+    "static/css/main.adfc797e.chunk.css.map": "/kajaki3/static/css/main.adfc797e.chunk.css.map",
     "static/js/2.742c2ced.chunk.js.LICENSE.txt": "/kajaki3/static/js/2.742c2ced.chunk.js.LICENSE.txt",
     "static/media/AboutShort.module.scss": "/kajaki3/static/media/about1.147ea5f9.jpg",
     "static/media/ContactShort.module.scss": "/kajaki3/static/media/contact.6c80e88d.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0ea8ccc.js",
     "static/js/2.742c2ced.chunk.js",
-    "static/css/main.2f7b4989.chunk.css",
-    "static/js/main.5d8c4aa4.chunk.js"
+    "static/css/main.adfc797e.chunk.css",
+    "static/js/main.c5684382.chunk.js"
   ]
 }
